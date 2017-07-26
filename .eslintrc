@@ -1,0 +1,14 @@
+{
+  "extends": [
+    "tough/config/common",
+    "tough/config/node",
+    "tough/config/esnext"
+  ],
+  "rules": {
+    "no-console": 0,
+    "no-magic-numbers": 0,
+    "no-process-exit": 0,
+    "global-require": 0,
+    "node/shebang": 0
+  }
+}
